@@ -1,0 +1,32 @@
+*{
+  font-family: 'Montserrat';
+}
+
+body {
+    background-image: url(../assets/img/Landscape.jpg);
+  }
+
+img{
+  /*background-image: url(../assets/img/miau-small.jpg)*/
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media (min-width: 450px) {
+  body {
+      background-image: url(../assets/img/Landscape.jpg);
+    }
+}
+
+/*@media screen and (min-width: 250px) {
+  body {
+      background-image: url(../assets/img/dawn.jpg);
+    }
+}*/
+
+/*@media all and (min-width: 200px) {
+  body {
+      background-image: url(../assets/img/Landscape.jpg);
+    }
+}*/
