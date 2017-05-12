@@ -3,30 +3,35 @@
 }
 
 body {
-    background-image: url(../assets/img/Landscape.jpg);
-  }
+  /*width: 100%;*/
+  background-image: url(../assets/img/maxresdefault.jpg);
+}
 
 img{
-  /*background-image: url(../assets/img/miau-small.jpg)*/
   display: block;
   margin: 0 auto;
 }
 
 
-@media (min-width: 450px) {
+@media (min-width: 480px) {
   body {
-      background-image: url(../assets/img/Landscape.jpg);
-    }
+    background-image: url(../assets/img/dawn.jpg);
+  }
+
+
+  img{
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-/*@media screen and (min-width: 250px) {
+@media (min-width: 700px) {
   body {
-      background-image: url(../assets/img/dawn.jpg);
-    }
-}*/
+    background-image: url(../assets/img/Landscape.jpg);
+  }
 
-/*@media all and (min-width: 200px) {
-  body {
-      background-image: url(../assets/img/Landscape.jpg);
-    }
-}*/
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
