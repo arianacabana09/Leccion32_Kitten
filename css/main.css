@@ -4,7 +4,8 @@
 
 body {
   /*width: 100%;*/
-  background-image: url(../assets/img/maxresdefault.jpg);
+  background-image: url(../assets/img/Landscape.jpg);
+  background-size: cover;
 }
 
 img{
@@ -13,25 +14,24 @@ img{
 }
 
 
-@media (min-width: 480px) {
-  body {
-    background-image: url(../assets/img/dawn.jpg);
-  }
-
-
-  img{
-    display: block;
-    margin: 0 auto;
+@media (max-width:460px) {
+  body{
+    background-image: url("../assets/img/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-
-@media (min-width: 700px) {
-  body {
-    background-image: url(../assets/img/Landscape.jpg);
+@media (min-width: 460px) and (max-width: 640px){
+  body{
+    background-image: url("../assets/img/dawn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
-  img{
-    display: block;
-    margin: 0 auto;
+}
+@media (min-width:640px) {
+  body{
+    background-image: url("../assets/img/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
