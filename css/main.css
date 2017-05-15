@@ -1,11 +1,20 @@
 *{
   font-family: 'Montserrat';
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  /*width: 100%;*/
   background-image: url(../assets/img/Landscape.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
 img{
@@ -17,21 +26,17 @@ img{
 @media (max-width:460px) {
   body{
     background-image: url("../assets/img/maxresdefault.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
-@media (min-width: 460px) and (max-width: 640px){
+@media (min-width: 450px) and (max-width: 650px){
   body{
     background-image: url("../assets/img/dawn.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
 }
-@media (min-width:640px) {
+@media (min-width:660px) {
   body{
     background-image: url("../assets/img/landscape.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
 }
